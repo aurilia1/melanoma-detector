@@ -1,2 +1,33 @@
-".idea/" 
-"melanoma-risk-detector/" 
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.env
+venv/
+.venv/
+
+# Data
+data/images/
+data/*.csv
+data/*.zip
+*.h5
+*.pt
+*.pth
+*.ckpt
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.DS_Store
+
+# Dossiers locaux
+melanoma-risk-detector/
+
+# HuggingFace cache
+.cache/
+.cache/
